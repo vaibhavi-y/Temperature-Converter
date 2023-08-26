@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp4078386.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #000;
+    border-style: solid;
+    box-shadow: #000 ;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  label,
+  input,
+  button {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 5px;
+    width: 100%;
+  }
+
+  button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: rgb(51, 22, 87);
+  }
